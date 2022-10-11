@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    margin: 0,auto;
+    border :2px solid greenyellow;
+    width: 200px;
+}
+.inputfield input{
+    width: 95%;
+    border: 1px solid greenyellow;
+    background-color: greenyellow;
+    margin-top: 2px;
+}
+.btn {
+    width: 45px;
+    background-color: greenyellow;
+    margin: 1px;
+
+}
+.clear{
+    margin-top: 5px;
+    width: 200px;
+}
+.btn1 {
+    width: 45px;
+    background-color: greenyellow;
+    margin: 1px;
+
+}
+

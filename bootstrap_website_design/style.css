@@ -1,0 +1,55 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.section1{
+    background-image: url('back.jpg');
+    height: 100vh;
+}
+.lgText{
+    font-size: 4em;
+}
+.socialIcon{
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    display: block;
+    border: 2px solid white;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 10px;
+}
+.socialIcon:hover{
+    background-color: white;
+    color: black;
+}
+.section2{
+    background-color: #39b54a;
+
+}
+.counterCard{
+    width: 100%;
+    max-width: 430px;
+}
+.section6{
+    background-image: url('https://preview.colorlib.com/theme/glint/images/xcontact-bg.jpg.pagespeed.ic.Yg-_T7iMmI.webp');
+    background-position: center;
+}
+.form{
+    background-color: rgba(0, 0, 0, .4);
+}
+input,textarea{
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid lightgrey;
+    margin: 5px;
+    width: 99%;
+    color: white;
+    outline: none;
+}
+input:focus,textarea:focus{
+    border-bottom: 2px solid green;
+}

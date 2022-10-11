@@ -1,0 +1,979 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fiverr</title>
+    <link
+    rel="stylesheet"
+    href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+    crossorigin="anonymous"
+  />
+  <style>
+      ul {
+          display: inline-block;
+          list-style: none;
+      }
+          /* nav */
+.main-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+a {
+    color: grey;
+    text-decoration: none;
+}
+input[type=text] {
+  padding: 8px;
+  font-size: 15px;
+  border: 1px solid grey;
+  float: left;
+  background: #f1f1f1;
+}
+.main-nav {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-nav ul {
+    display: flex;
+}
+
+.main-nav ul li {
+    padding: 0 10px;
+}
+
+.main-nav ul li a {
+    padding-bottom: 2px;
+}
+.main-nav ul.a {
+    flex: 1;
+    margin-left: 20px;
+}
+a:hover {
+  color: green;
+}
+.blue {
+    color: blue;
+}
+.blue:hover {
+    color: green;
+}
+.searchbar {
+    width: 24%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #65735b;
+    position: relative;
+    margin-left: 30px;
+}
+.banner{
+    display: flex;
+    background-color: rgb(153, 153, 153);
+    width: 100%;
+    height: 90px;
+    position: relative;
+justify-content: center;
+    top: -190px;
+   
+}
+.bnrhead{
+ display: flex;
+ align-items: center;
+ margin: 5px;
+ padding: 10px;
+ color: rgb(209, 202, 202);
+}
+.banner img{
+    margin: 5px;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+     background-color: rgb(186, 214, 218);
+     width: 100%;
+     height: 800px;
+     display: inline-block;
+     align-items: right;
+     position: relative;
+     top: -200px;
+
+}
+.bigban img{
+    align-items: right;
+    position: relative;
+    left: 500px;
+    margin: 10px;
+    padding: 10px;
+    top: 200px;
+}
+.imgcnt {
+position: relative;
+left: 10px;
+top: -300px;
+color: rgb(141, 136, 136);
+}
+.imgcnt h1{
+    color: rgb(71, 70, 70);
+    margin: 10px;
+    padding: 8px;
+}
+.imgcnt h3{
+    color: rgb(71, 70, 70);
+    margin: 5px;
+    padding: 5px;
+}
+.imgcnt h6{
+    color: rgb(109, 106, 106);
+    margin: 5px;
+    padding: 5px;
+    font-size: 19px;
+}
+.container2{
+     display: flex;
+     position: relative;
+     top: -200px;
+     width: 100%;
+     margin: 2px;
+     padding: 2px;
+}
+.head2{
+    position: relative;
+    top: -100px;
+    margin: 2px;
+    padding: 2px;
+    display: flex;
+    width: 30%;
+}
+.icons{
+    display: flex;
+    position: relative;
+    top: -200px;
+  
+    margin: 2px;
+    padding: 2px;
+}
+.icon1{
+    display: flex;
+    margin : 20px;
+    padding:20px;
+   
+    border-bottom: 2px solid black;
+    position: relative;
+    left: 50px;
+   
+}
+
+
+.icon2{
+    display:flex;
+    margin : 20px;
+    padding:20px;
+    border-bottom: 2px solid black;
+    position: relative;
+    left: 150px;
+
+}
+
+.icon3{
+    display:flex;
+    margin : 20px;
+    padding:20px;
+    border-bottom: 2px solid black;
+    position: relative;
+    left: 250px;
+
+}
+.icon4{
+    display:flex;
+    margin : 20px;
+    padding:20px;
+    border-bottom: 2px solid black;
+    position: relative;
+    left: 350px;
+
+}
+.icon5{
+    display:flex;
+    margin : 20px;
+    padding:20px;
+    border-bottom: 2px solid black;
+    position: relative;
+    left: 450px;
+
+}
+.icon6{
+    display:flex;
+    margin : 20px;
+    padding:20px;
+      border-bottom: 2px solid black;
+    position: relative;
+    left: -720px;
+    top: 180px;
+
+}
+.icon7{
+    display:flex;
+    margin : 20px;
+    padding:20px;
+    border-bottom: 2px solid black;
+    position: relative;
+    left: -620px;
+    top: 180px;
+
+}
+.icon8{
+    display:flex;
+    margin : 20px;
+    padding:20px;
+    border-bottom: 2px solid black;
+    position: relative;
+    left: -510px;
+    top: 180px;
+
+}
+.icon9{
+    display:flex;
+    margin : 20px;
+    padding:20px;
+    border-bottom: 2px solid black;
+    position: relative;
+    left: -400px;
+    top: 180px;
+
+}
+.icondes{
+    display: flex;
+    position: relative;
+    top: -200px;
+    margin: 2px;
+    padding: 2px;
+}
+.icds1{
+    display: flex;
+  position: relative;
+    left: 60px;
+    top:-10px;
+    width: 100%;
+}
+.icds2{
+    display: flex;
+    position: relative;
+    left: 130px;
+    top:-10px;
+    width: 100%;
+}
+.icds3{
+    display: flex;
+    position: relative;
+    left: 180px;
+    top:-10px;
+    width: 100%;
+}
+.icds4{
+    display: flex;
+    position: relative;
+    left: 250px;
+    top:-10px;
+    width: 100%;
+}
+.icds5{
+    display: flex;
+    position: relative;
+    left: 340px;
+
+    top:-10px;
+    width: 100%;
+}
+.icds6{
+    display: flex;
+    margin : 10px;
+    padding:10px;
+    position: relative;
+    left: -900px;
+    top: 150px;
+}
+.icds7{
+    display: flex;
+    margin : 10px;
+    padding:10px;
+    position: relative;
+    left: -750px;
+    top: 150px;
+}
+.icds8{
+    display: flex;
+    margin : 10px;
+    padding:10px;
+    position: relative;
+    left: -600px;
+    top: 150px;
+
+}
+.icds9{
+    display: flex;
+    margin : 10px;
+    padding:10px;
+    position: relative;
+    left: -420px;
+    top: 150px;
+
+}
+.container3{
+    background-color: #0d084d;
+     width: 100%;
+     height: 800px;
+     display: inline-block;
+     align-items: right;
+     position: relative;
+     top: -30px;
+
+}
+
+.bigimg{
+    align-items: right;
+    position: relative;
+    left: 500px;
+    margin: 10px;
+    padding: 10px;
+    top: 50px;
+
+}
+.imgcnt1 {
+    position: relative;
+    left: 1px;
+    top: -300px;
+    color: rgb(255, 255, 255);
+
+    }
+    .imgcnt1 h2{
+        color: rgb(255, 249, 249);
+        margin: 10px;
+        padding: 8px;
+        position: relative;
+        left: -10px;
+        top: -10px;
+        font-size: 30px;
+    }
+    .imgcnt1 h1{
+        color: rgb(255, 249, 249);
+        margin: 10px;
+        padding: 8px;
+        position: relative;
+        left: -10px;
+        top: -10px;
+    }
+    .imgcnt1 i{
+        color: gray;
+        margin: 2px;
+        padding: 2px;
+        position: relative;
+        left: 1px;
+        top: 0px;
+    }
+    .imgcnt1 h3{
+        color: rgb(255, 249, 249);
+        margin: 5px;
+        padding: 5px;
+    }
+    .imgcnt1 h6{
+        color: rgb(255, 249, 249);
+        margin: 5px;
+        padding: 5px;
+        font-size: 19px;
+    }
+    .imgcnt1 .endbtn button {
+     background-color: aquamarine;
+     margin: 5px;
+     padding: 5px;
+     width: 100%;
+     height: 50px;
+     border-radius: 10px;
+    }
+    
+    
+    .imgcnt1 .endbtn{
+     margin: 20px;
+     padding: 20px;  
+     width: 100%; 
+     border-radius: 10px;
+    }
+    .shbanner{
+        display: flex;
+        margin-bottom: 10px;
+        padding-bottom: 10px;   
+    }
+    .shimg{
+        display: flex;
+        position: relative;
+        left: 10px;
+        top: -100px;
+    }
+    .shdes h2{
+        position: relative;
+        left: 10px;
+        top: -90px;
+        margin: 10px;
+        padding: 10px;
+    }
+    .shdes h1{
+        position: relative;
+        left: 10px;
+        top: -70px;
+        margin: 10px;
+        padding: 10px;
+    }
+    .logomaker{
+        display: flex;
+        height: 290px;
+        background-color: #446ee7;
+        width: 1300px;
+        position: relative;
+        margin: 10px;
+        padding: 10px;
+
+    }
+    .logoimg{
+        display: flex;
+        position: relative;
+        left: 800px;
+        top: 20px;
+
+    }
+    .logodes h3{
+        position: relative;
+        left: -300px;
+        top: 10px;
+        margin: 5px;
+        padding: 5px;
+        font-size: 29px;
+        color: white;
+    }
+    .logodes h1{
+        position: relative;
+        left: -300px;
+        top: 10px;
+        margin: 5px;
+        padding: 5px;
+        font-size: 35px;
+        color: white;
+    }
+    .logodes p{
+        position: relative;
+        left: -300px;
+        top: 10px;
+        margin: 5px;
+        padding: 5px;
+        font-size: 20px;
+        color: white;
+    }
+    .fiverrbtn button {
+        background-color: white;
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        color: #446ee7;
+       }
+       .fiverrbtn{
+        margin: 10px;
+        padding: 10px;  
+        width: 100%; 
+        border-radius: 10px;
+        position: relative;
+        left: -300px;
+       }
+.join {
+  border: 2px solid black;
+  background-color: white;
+  color: grey;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.join {
+  border-color: #04AA6D;
+}
+
+.join:hover {
+  background-color: #04AA6D;
+  color: white;
+}
+.thead {
+    width: 100%;
+    height: 550px;
+      background: url('./images/bg-hero-4-900-x1.webp') no-repeat center center/cover;
+      color: azure;
+      flex-direction: column;
+      justify-content: flex-end;
+}
+       .header {
+      width: 300px;
+      height: 250px;
+      background: url('./images/capture2.jpg') no-repeat center center/cover;
+      color: azure;
+      flex-direction: column;
+      justify-content: center;
+      padding-bottom: 50px;
+      margin-bottom: 20px;
+ }
+ .thead input {
+  width: 35%;
+}
+ .header1 {
+      width: 300px;
+      height: 250px;
+      background: url('./images/capture3.webp') no-repeat center center/cover;
+      color: azure;
+      flex-direction: column;
+      justify-content: center;
+      padding-bottom: 50px;
+      margin-bottom: 20px;
+ }
+ .header2 {
+      width: 300px;
+      height: 250px;
+      background: url('./images/capture4.jpg') no-repeat center center/cover;
+      color: azure;
+      flex-direction: column;
+      justify-content: center;
+      padding-bottom: 50px;
+      margin-bottom: 20px;
+ }
+ .footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.divv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.divv0 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ul0 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ul1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ul2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.signup {
+    font-size: 50px;
+    position: relative;
+    left: 100px;
+    top: -300px;
+    color: white;
+}
+.getbtn button {
+    background-color: rgb(104, 231, 146);
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    color: white
+   }
+   .getbtn{
+    margin: 10px;
+    padding: 10px;  
+    width: 100%; 
+    border-radius: 10px;
+    position: relative;
+    left: 100px;
+    top: -340px;
+    
+   }
+   .divv1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding: 20px 0;
+    font-size: 13px;
+}
+.divv2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding: 20px 0;
+    font-size: 13px;
+}
+.divv2 ul li a:hover {
+    border-bottom: 2px solid #262626;
+}
+  </style>
+</head>
+<body>
+     <div>
+                 <!-- nav -->
+    <nav class="main-nav">
+<div class="searchbar">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="./images/logo.PNG" height="50px" width="120px" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" placeholder="Find Service"></div>
+                <ul>
+                    <a href="#"><li class="blue">Fiverr Business</li></a>
+                    <a href="#"><li>Explore</li></a>
+                    <a href="#"><li>Become a Seller</li></a>
+                    <a href="#"><li>Sign In</li></a>
+                    <a href="#"><li class="join">Join</li></a>
+                  </ul>
+                  </nav>
+            <div class="thead">
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+               <h1>Find the perfect freelance <br>services for your business</h1>
+               <br>
+               <input type="text" placeholder="Try building mobile app">
+               <img src="./images/search1.PNG" alt="">
+               <div class="bar">
+                <div class="navend">
+                    <h3>POPULAR:</h3>
+                    </div>
+                <ul>
+                    <li>Website Design</li>
+                    <li>Wordpress</li>
+                    <li>Logo Design</li>
+                    <li>NFT</li>
+                </ul>
+            </div>
+            </div>
+         <br>
+         <br>
+         <br>
+         <br>
+         <br>
+         <br>
+         <br>
+         <br>
+         <br>
+         <br>
+         <br>
+         <br>
+         <br>
+         <br>
+         <div class="banner">
+            <div class="bnrhead">
+                  Trusted By:
+            </div>
+            <div> <img src="./images/facebook.31d5f92.png" alt=""></div>
+            <div><img src="./images/google.517da09.png" alt=""></div>
+            <div><img src="./images/netflix.e3ad953.png" alt=""></div>
+            <div><img src="./images/pandg.8b7310b.png" alt=""></div>
+            <div><img src="./images/paypal.ec56157.png" alt=""></div>
+        </div> 
+            <div>
+                <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbspPopular professional services</h1>
+            </div>
+            <ul class="footer">
+                <li><div class="header">
+                    <h3>Build Your Brand<h3>
+                        <h1>Logo design</h1>
+                 </div></li>
+                <li>  <div class="header1">
+                    <h3>Customize Your Site</h3>
+                    <h1>Word Press</h1>
+                </div></li>
+                <li>       <div class="header2">
+                    <h3>Share your Message</h3>
+                    <h1>Voice Over</h1>
+                </div></li>
+            
+            </ul>
+          <div>
+         <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp A whole world of <br>    &nbsp;&nbsp;&nbsp;&nbsp;&nbspfreelance talent at your <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp fingertips</h1>
+          </div>
+          <br>
+          <br>
+          <br>
+          <div class="container"> 
+            <div class="bigban">
+               <div>
+                   <img src="./images/selling-proposition-still-1400-x1.jpg" height="500px"
+                   width="800px" alt="">
+               </div>
+               <div class="imgcnt">
+                   <h1> A whole world of freelance <br> talent at your fingertips</h1>
+                   <h3><i class="fa-solid fa-circle-check"></i> The best for every budget</h3>
+                   <h6>
+                     Find high-quality services at every price point. No <br> hourly rates
+                     , just project-based pricing.
+                   </h6>
+                   <h3><i class="fa-solid fa-circle-check"></i> Quality work done quickly</h3>
+                   <h6>
+                     Find the right freelancer to begin working on your <br> project within minutes.
+                   </h6>
+                   <h3><i class="fa-solid fa-circle-check"></i> Protected payments, every time</h3>
+                   <h6>
+                     Always know what you'll pay upfront. Your payment <br> isn't released until you approve the work.
+                   </h6>
+                   <h3><i class="fa-solid fa-circle-check"></i> 24/7 support</h3>
+                   <h6>
+                     Questions? Our round-the-clock support team is <br> available to help anytime, anywhere.
+                   </h6>
+     
+               </div>
+            </div></div>
+            <div class="container2">
+                <div class="head2">
+                 <h1> Explore the marketplace</h1>
+                </div></div>
+                <div class="icons">
+                <div class="icon1"><img src="./images/graphic.png" height="70px" width="70px" alt=""></div>
+                <div class="icon2"><img src="./images/online market.png" height="70px" width="70px" alt="">
+             </div>
+                <div class="icon3"><img src="./images/write.png"  height="70px" width="70px"alt=""></div>
+                <div class="icon4"><img src="./images/va.png"  height="70px" width="70px"alt=""></div>
+                <div class="icon5"><img src="./images/music.png"height="70px" width="70px" alt=""></div> <br>
+                <div class="icon6" ><img src="./images/programmimg.png" height="70px" width="70px" alt=""></div>
+                <div class="icon7"><img src="./images/business.png" height="70px" width="70px"alt=""></div>
+                <div class="icon8"><img src="./images/lifestyle.png"height="70px" width="70px" alt=""></div>
+                <div class="icon9"><img src="./images/data.png" height="70px" width="70px"alt=""></div>
+             </div></div>
+             <div class="icondes">
+                <div class="icds1">
+                     Graphics & Design  
+                </div>
+                <div class="icds2">
+                 Digital Marketing
+            </div>
+            <div class="icds3">
+            Writing & Translation
+        </div>
+        <div class="icds4">
+         Video & Animation </div>
+     <div class="icds5">
+         Music & Audio
+     </div>
+     <div class="icds6">
+         Programming & Tech
+     </div>
+     <div class="icds7">
+         Business
+     </div>
+     <div class="icds8">
+            Lifestyle
+     </div>
+     <div class="icds9">
+         Data
+     </div>
+            </div>
+            <div class="container3">
+                <div class="bigimg">
+                      <img src="./images/buisness.png" height="500px" width="800px" alt="">
+                </div>
+                <div class="imgcnt1">
+                    <h2>
+                        <b>fiverr</b> business.
+                    </h2>
+                    <h1>
+                       <b> A business solution <br> designed for</b> <em> teams</em>
+                    </h1>
+                    <h3>
+                        Upgrade to a curated experience packed with tools <br> and benefits, dedicated to businesses
+                    </h3>
+                    <h6>
+                        <i class="fa-solid fa-circle-check"> </i> Connect to freelancers
+                             with proven business experience
+                    </h6>
+                    <h6>
+                        <i class="fa-solid fa-circle-check"> </i> Get matched with the perfect
+                             talent by a customer success manager
+                    </h6>
+                    <h6>
+                        <i class="fa-solid fa-circle-check"> </i> Manage teamwork and boost\
+                             productivity with one powerful workspace
+                    </h6>
+                    <div class="endbtn" >
+                      <button style="width: 300px;">  Explore Fiverr Buisness</button>
+                    </div>
+                </div>
+            </div>
+            <div class="shbanner">
+                <div class="shimg" >
+                    <img src="./images/testimonial-video-still-lavender.jpg" height="300px" width="500px" alt="">
+                </div>
+                <div class="shdes">
+                    <h2>Tim and Dan doo,Co-Founders</h2>
+                    <h1><em>"When You Want To Create A Buisness Bigger Than Yourself you need Alot Of Help Thats What Fiverr Does"</em></h1>
+                </div>
+            </div>
+            <div class="logomaker">
+                <div class="logoimg">
+            <img src="./images/banner.jpg" height="200px"
+            width="400px" alt="">
+                </div>
+                <div class="logodes">
+                    <h3><b>fiverr</b>Logomaker.</h3>
+                    <h1> <b>Make</b> an incredible logo <br>
+                       <em> in minutes </em></h1>
+                        <p>
+                            Pre-designed by top talent. Just add your touch.
+                        </p>
+                        <div class="fiverrbtn" >
+                            <button style="width: 300px;">  Explore Fiverr Buisness</button>
+                          </div>
+                </div>
+            </div>
+     <div class="divv">
+             <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp Get inspired with projects made by our <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp freelancers</h1>
+             <h4 style="color: blue;"> See More Projects <i class="fas fa-chevron-right"></i></h4>
+     </div>
+     <div class="divv0">
+         <ul class="ul0">
+             <li><img src="./images/illustation.jpg" alt="" width="300px" height="200px"><br><h3> Illustation</h3></li>
+             <li><img src="./images/book design.jpg" alt="" width="300px" height="200px"><br><h3>Book Design</h3></li>
+             <li><img src="./images/skydesigner.jpg" alt="" width="300px" height="200px"><br><h3>Sky Designer</h3></li>
+         </ul>
+     </div>
+     <div class="divv1">
+     <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp Fivver Guides</h1>
+     <h4 style="color: blue;"> See More Guides <i class="fas fa-chevron-right"></i></h4>
+    </div>
+    <div>
+        <ul class="ul1">
+            <li><img src="./images/guide-start-online-business-552-x2.webp" alt="" width="300px" height="200px"><br><h3>Sart an Online Business and work <br>
+                from home</h3>
+                <p>A complete guide to starting a small <br>business online</p></li>
+            <li> <img src="./images/guide-digital-marketing-552-x2.webp" alt="" width="300px" height="200px"><br><h3>Digital marketing made easy</h3>
+                <p>A practical guide to understand what is <br> digital marketing</p></li>
+            <li><img src="./images/guide-create-a-logo-552-x2.webp" alt="" width="300px" height="200px"><br><h3>Create a logo for your business</h3>
+                <p>A step-by-step guide to creat a <br> memorable business logo</p></li>
+            </ul>
+    </div>
+<div class="last">
+    <div><img src="./images/bg-signup-1400-x1.jpg" alt=""></div>
+    <div class="signup">
+        <p>Find the <em> talent </em>needed to <br> get your business<em> growing </em>.</p>
+    </div>
+    <div class="getbtn" >
+        <button style="width: 190px;"> Get Started</button>
+      </div>
+</div>
+
+<hr>
+<div class="divv2">
+<ul>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <li><h3>Categories</h3></li>
+<h4><li><a href="">Graphics & Design</a></li>
+    <li><a href="">Digital Marketing</a></li>
+    <li><a href="">Writing & Translation</a></li>
+    <li><a href=""> Video & Animation</a></li>
+    <li><a href="">Music & Audio</a></li>
+    <li><a href="">Programming & Tech</a></li>
+    <li><a href="">Data</a></li>
+    <li><a href="">Business</a></li>
+    <li><a href="">Lifestyle</a></li>
+    <li><a href="">Sitemap</a></li></h4>
+</ul>
+<ul>
+    <br>
+    <br>
+    <br>
+    <br>
+    <li><h3>About</h3></li>
+    <h4><li><a href="">Careers</a></li>
+        <li><a href="">Press & News</a></li>
+        <li><a href="">Partnerships</a></li>
+        <li><a href="">Privacy Policy</a></li>
+        <li><a href="">Terms of Service</a></li>
+        <li><a href="">Programming & Tech</a></li>
+        <li><a href="">Intellectual Property Claims</a></li>
+        <li><a href="">Investor Relations</a></li></h4>
+</ul>
+    <ul>
+        <li><h3>Support</h3></li>
+        <h4><li><a href=""> Help & Support</a></li>
+        <li><a href="">Trust & Safety</a></li>
+        <li><a href="">Selling on Fiverr</a></li>
+        <li><a href="">Buying on Fiverr</a></li></h4>     
+   </ul>
+   <ul>
+       <br>
+       <br>
+       <br>
+       <br>
+        <li><h3> Community</h3></li>
+        <h4><li><a href="">Events</a></li>
+            <li><a href=""> Blog</a></li>
+            <li><a href="">Forum</a></li>
+            <li><a href="">Community Standards</a></li>
+            <li><a href="">Podcast</a></li>
+            <li><a href=""> Affiliates</a></li>
+            <li><a href="">Invite a Friend</a></li>
+            <li><a href="">Become a Seller</a></li> </h4>
+            </ul>
+            <ul>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        <li><h3>More From Fiverr</h3></li>
+        <h4><li><a href=""> Fiverr Business</a></li>
+        <li><a href="">Fiverr Pro </a></li>
+        <li><a href="">Fiverr Studios</a></li>
+        <li><a href="">Fiverr Logo Maker</a></li>
+        <li><a href="">Fiverr Guides</a></li>
+        <li><a href="">Get Inspired</a></li>
+        <li><a href="">ClearVoice<h5>Content Marketing</h5></a></li>
+        <li><a href="">Fivver Workspace<h5>Invoice Software</h5></a></li>
+        <li><a href="">Learn<h5>Online Courses</h5></a></li>
+        <li><a href="">Working Not working</a></li></h4>
+    </ul>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <img src="./images/last.PNG" alt="" width="100%">
+    </div>
+  
+
+    </body>
+</html>

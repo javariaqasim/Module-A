@@ -1,0 +1,817 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #fff;
+    color: #000;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.header {
+    width: 100%;
+    height: 645px;
+    background: url('./images/20210527_Stanford_OvalDJI_0037-DG-1499x811.webp') no-repeat center center/cover;
+    color: azure;
+    font-size: 20px;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+}
+.header ul li a:hover {
+    border-bottom: 2px solid azure;
+}
+ul {
+    list-style: none;
+}
+.ul1 {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+}
+.ul2 {
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+}
+a {
+    color: azure;
+    text-decoration: none;
+}
+.ul11 {
+    color: azure;
+}
+.ul11 {
+    position: relative;
+}
+.fas:hover {
+    background-color: red;
+}
+.a {
+    font-size: 80px;
+    position: relative;
+    top: 100px;
+    right: -345px;
+}
+.b {
+    background: red;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    height: 40px;
+    top: 320px;
+    right: -0px;
+}
+.header2 {
+    color: azure;
+    background-color: grey;
+    text-align: center;
+}
+.c {
+    font-size: 60px;
+    position: relative;
+}
+.d {
+    font-size: 30px;
+    position: relative;
+}
+.e {
+    cursor: pointer;
+    font-size: 35px;
+    position: relative;
+    display: inline-block;
+    border: 0;
+    padding: 10px 20px;
+    background: red;
+    color: azure;
+    font-size: 15px;
+}
+.header3 {
+    font-size: 30px;
+    text-align: center;
+}
+.header4 {
+    width: 490px;
+    height: 340px;
+    background: url('./images/SU_WomensHistoryMonth_Web_01_CleliaMosher_2400x1600_1-1499x999.webp') no-repeat center center/cover;
+    color: azure;
+    flex-direction: column;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    box-sizing: inherit;
+    display: inline-block;
+    position: relative;
+}
+.header4:hover {
+    opacity: 0.9;
+}
+.f {
+    position: relative;
+    top: 290px;
+    right: -7px;
+}
+.g {
+    position: relative;
+    top: 290px;
+    right: -7px;
+}
+.header5 {
+    display: inline-block;
+    position: absolute;
+    left: 510px;
+    top: 1426px;
+    border-radius: 1px;
+}
+.header5:hover {
+    opacity: 0.9;
+}
+.h {
+    color: red;
+}
+.i:hover {
+    color: blue;
+}
+.header6 {
+    display: inline-block;
+    position: absolute;
+    left: 785px;
+    top: 1426px;
+    border-radius: 1px;
+}
+.header6:hover {
+    opacity: 0.9;
+}
+.j {
+    color: red;
+}
+.k:hover {
+    color: blue;
+}
+.header7 {
+    display: inline-block;
+    position: absolute;
+    left: 10px;
+    top: 1850px;
+    border-radius: 1px;
+}
+.header7:hover {
+    opacity: 0.9;
+}
+.l {
+    color: red;
+}
+.m:hover {
+    color: blue;
+}
+.header8 {
+    background: #fff;
+    display: inline-block;
+    position: absolute;
+    left: 290px;
+    top: 1850px;
+    border-radius: 1px;
+}
+.header8:hover {
+    opacity: 0.9;
+}
+.n {
+    color: red;
+}
+.o:hover {
+    color: blue;
+}
+.header9 {
+    width: 490px;
+    height: 340px;
+    background: url('./images/Solar-Generating-Station1500X1000.webp') no-repeat center center/cover;
+    color: azure;
+    flex-direction: column;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    box-sizing: inherit;
+    display: inline-block;
+    position: absolute;
+    top: 1850px;
+    left: 510px;
+}
+.header9:hover {
+    opacity: 0.9;
+}
+.p {
+    position: relative;
+    top: 220px;
+    right: -7px;
+}
+.q {
+    position: relative;
+    top: 210px;
+    right: -7px;
+}
+
+.r {
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    border: 0;
+    padding: 10px 20px;
+    background: red;
+    color: azure;
+    font-size: 15px;
+    position: relative;
+    top: 500px;
+    left: 440px;
+    text-align: center;
+}
+.r:hover {
+    opacity: 0.9;
+}
+
+
+.header11 {
+    background-color: grey;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    top: 600px;
+    left: -0px;
+}
+.div1 {
+    display: inline-block;
+    background-color: #fff;
+    font-size: 13px;
+}
+.div1:hover {
+    opacity: 0.9;
+}
+.h41 {
+    color: red;
+}
+.h31 {
+    color: #262626;
+}
+.h31:hover {
+    color: blue;
+}
+.div2 {
+    display: inline-block;
+    background-color: #fff;
+    font-size: 13px;
+}
+.div2:hover {
+    opacity: 0.9;
+}
+
+.h42 {
+    color: red;
+}
+.h32 {
+    color: #262626;
+}
+.h32:hover {
+    color: blue;
+}
+.h52 {
+    color: #262626;
+}
+.div3 {
+    display: inline-block;
+    background-color: #fff;
+    font-size: 13px;
+}
+.div3:hover {
+    opacity: 0.9;
+}
+.h43 {
+    color: red;
+}
+.h33 {
+    color: #262626;
+}
+.h33:hover {
+    color: blue;
+}
+.h53 {
+    color: #262626;
+}
+.div4 {
+    display: inline-block;
+    background-color: #fff;
+    font-size: 13px;
+}
+.div4:hover {
+    opacity: 0.9;
+}
+.h44 {
+    color: red;
+}
+.h34 {
+    color: #262626;
+}
+.h34:hover {
+    color: blue;
+}
+.h54 {
+    color: #262626;
+}
+.stress {
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    border: 0;
+    padding: 10px 20px;
+    background: red;
+    color: azure;
+    font-size: 7px;
+    top: 500px;
+    left: 400px;
+    text-align: center;
+
+}
+.stress:hover {
+    opacity: 0.9;
+
+}
+.header12 {
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    top: 600px;
+    left: -0px;
+}
+.header13 {
+    position: relative;
+    top: 700px;
+    display: inline-block;
+}
+.div5 {
+    display: inline-block;
+    position: relative;
+    right: -35px;
+}
+.div5:hover {
+    opacity: 0.9;
+
+}
+.s {
+    color: black;
+}
+.t {
+    color: #262626;
+}
+.u a {
+    color: blue;
+}
+.u a:hover {
+    border-bottom: 2px solid blue;
+}
+.div6 {
+    display: inline-block;
+    position: relative;
+    right: -50px;
+}
+.div6:hover {
+    opacity: 0.9;
+}
+.div7 {
+    display: inline-block;
+    position: relative;
+    right: -65px;
+}
+.div7:hover {
+    opacity: 0.9;
+
+}
+.header14 {
+    text-align: center;
+    position: relative;
+    right: -50px;
+    top: 800px;
+}
+.ul3 {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+}
+.ul3 a {
+    color: blue;
+
+}
+.ul3 a:hover {
+    border-bottom: 2px solid blue;
+}
+.header15 {
+    width: 100%;
+    height: 500px;
+    background: url('./images/Heather_Hadlock_3000x1200_website-v2.webp') no-repeat center center/cover;
+    flex-direction: column;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    color: #fff;
+    position: relative;
+    top: 700px;
+    align-items: center;
+    font-size: 17px;
+}
+.aa {
+    position: relative;
+    right: -310px;
+}
+.aa a:hover {
+    border-bottom: 2px solid white;
+
+}
+.header16 {
+    position: relative;
+    top: 800px;
+}
+.bb {
+    font-size: 55px;
+    position: relative;
+    right: -300px;
+}
+.cc {
+    font-size: 23px;
+    align-items: center;
+    position: relative;
+    right: -200px;
+}
+.diva {
+    position: relative;
+    display: inline-block;
+    right: -90px;
+}
+.divb {
+    position: relative;
+    display: inline-block;
+    right: -120px;
+}
+.divc {
+    position: relative;
+    display: inline-block;
+    right: -140px;
+}
+.header17 {
+    position: relative;
+    top: 800px;
+    right: -200px;
+    font-size: 20px;
+}
+.header18 {
+    position: relative;
+    font-size: 25px;
+    position: relative;
+    top: 850px;
+    left: 40px;
+}
+.divd {
+    position: absolute;
+    left: -0px;
+    top: 10px;
+    border-radius: 1px;
+    display: inline-block;
+    font-size: 15px;
+}
+.divd:hover {
+    opacity: 0.9;
+
+}
+.sci1 {
+    color: red;
+}
+.sci2 {
+    color: #262626;
+}
+.sci2:hover {
+    color: blue;
+}
+.dive {
+    display: inline-block;
+    position: absolute;
+    left: 230px;
+    top: 10px;
+    border-radius: 1px;
+    font-size: 15px;
+}
+.dive:hover {
+    opacity: 0.9;
+
+}
+.divf {
+    
+    display: inline-block;
+    position: absolute;
+    left: 460px;
+    top: 10px;
+    border-radius: 1px;
+    font-size: 15px;
+
+}
+.divf:hover {
+    opacity: 0.9;
+
+}
+.divg {
+    display: inline-block;
+    position: absolute;
+    left: 690px;
+    top: 10px;
+    border-radius: 1px;
+    font-size: 15px;
+}
+.divg:hover {
+    opacity: 0.9;
+
+}
+.more {
+    position: relative;
+    top: 1270px;
+    left: 400px;
+}
+.more:hover {
+    opacity: 0.7;
+
+}
+.header19 {
+    background-color: rgba(128, 128, 128, 0.466);
+    position: relative;
+    top: 1370px;
+    text-align: center;
+    font-size: 20px;
+}
+.div0 {
+    display: inline-block;
+    position: absolute;
+    top: auto;
+    text-align: start;
+    font-size: 15px;
+    left: 13px;
+}
+.div0:hover {
+    opacity: 0.9;
+}
+.div00 {
+    display: inline-block;
+    position: absolute;
+    top: auto;
+    text-align: start;
+    font-size: 15px;
+} 
+.div00:hover {
+    opacity: 0.9;
+}
+.div000 {
+    display: inline-block;
+    position: relative;
+    top: auto;
+    text-align: start;
+    font-size: 15px;
+    left: 310px;
+}
+.div000:hover {
+    opacity: 0.9;
+}
+.health {
+    position: relative;
+    top: 1390px;
+    left: 400px;
+} 
+.health:hover {
+    opacity: 0.7;
+}
+.footer {
+    width: 100%;
+    height: 500px;
+    background: url('./images/profile_ryancohen_back_landscape-1499x600.webp') no-repeat center center/cover;
+    flex-direction: column;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    color: #fff;
+    position: relative;
+    top: 1400px;
+    align-items: center;
+}
+.dd {
+    font-size: 25px;
+    position: relative;
+    right: -180px;
+}
+.dd a:hover {
+    border-bottom: 2px solid white;
+}
+.footer1 {
+    position: relative;
+    top: 1420px;;
+    text-align: center;
+    font-size: 23px;
+}
+.footer2 {
+    position: relative;
+    top: 1420px;
+    font-size: 15px;
+}
+.div01 {
+    display: inline-block;
+    position: absolute;
+    top: auto;
+    text-align: start;
+    font-size: 15px;
+    left: 15px;
+}
+.div01:hover {
+    opacity: 0.9;
+}
+.div02 {
+    display: inline-block;
+    position: absolute;
+    top: auto;
+    text-align: start;
+    font-size: 15px;
+    left: 350px;
+} 
+.div02:hover {
+    opacity: 0.9;
+}
+.div03 {
+    display: inline-block;
+    position: relative;
+    top: auto;
+    text-align: start;
+    font-size: 15px;
+    left: 690px;
+}
+.div03:hover {
+    opacity: 0.9;
+}
+.about {
+    position: relative;
+    top: 1400px;
+    left: 400px;
+} 
+.about:hover {
+    opacity: 0.7;
+}
+.footer3 {
+    background-color: rgba(128, 128, 128, 0.486);
+    position: relative;
+    top: 1520px;;
+    text-align: center;
+    font-size: 23px;
+}
+.z {
+    text-align: start;
+    color: #fff;
+    position: absolute;
+    top: 550px;
+    left: 15px;
+}
+.ee {
+    display: inline-block;
+    position: relative;
+    font-size: 18px;
+    text-align: start;
+}
+.eee {
+    display: inline-block;
+    position: relative;
+    font-size: 18px;
+    text-align: start;
+}
+.span {
+    position: relative;
+    top: 10px;
+}
+.span:hover {
+    opacity: 0.7;
+}
+.footer4 {
+    align-items: center;
+    font-size: 22px;
+    position: relative;
+    top: 1550px;
+    left: 200px;
+}
+.footer5 {
+    display: inline-block;
+    position: relative;
+    top: 1520px;
+}
+.divxx {
+    text-align: start;
+    position: absolute;
+    display: inline-block;
+    left: 100px;
+}
+.divyy {
+    position: absolute;
+    display: inline-block;
+    left: 400px;
+    
+}
+.divzz {
+    position: absolute;
+    display: inline-block;
+    left: 800px;
+}
+.span1 {
+    position: relative;
+    top: 1700px;
+    left: 410px;
+}
+.span1:hover {
+    opacity: 0.7;
+
+}
+.footer6 {
+    position: relative;
+    top: 1800px;
+}
+.footer7 {
+    position: relative;
+    top: 1753px;
+    background-color: rgba(128, 128, 128, 0.507);
+    font-size: 40px;
+}
+.li1:hover {
+    color: rgba(0, 110, 255, 0.616);
+}
+.li2:hover {
+    color: rgba(0, 110, 255, 0.822);
+}
+.li3:hover {
+    color: orangered;
+}
+.li4:hover {
+    color: red;
+}
+.li5:hover {
+    opacity: 0.7;  
+}
+.ul4 {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.footer8 {
+    position: relative;
+    top: 1770px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+.footer8 a {
+    color: black;
+
+}
+.footer8 a:hover {
+    color: blue;
+}
+.footer8 a:hover {
+    border-bottom: 2px solid blue;
+}
+.sch {
+    color: red;
+}
+.borders a {
+    color: #262626;
+}
+.borders a:hover {
+    border-bottom: 2px solid red;
+}
+.borders a:hover {
+    color: red;
+}
+.footer9 {
+    align-items: center;
+    color: #fff;
+    background-color: red;
+    position: relative;
+    top: 1780px;
+}
+.ul5{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+}
+.ul5 a:hover {
+    border-bottom: 2px solid azure;
+}
+.ul6{
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+}
+.ul6 a:hover {
+    border-bottom: 2px solid azure;
+}
+
+

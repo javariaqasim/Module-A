@@ -1,0 +1,374 @@
+body{
+    width: 100%;
+    height: 100%;
+  }
+  .a{
+      background-color: whitesmoke;
+      width: 1000px;
+      padding-left: 200px;
+      height: 80px;
+  }
+  .a:hover{
+      opacity: 0.6;
+  }
+
+  ul{
+	position:absolute;
+	top: 25%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	margin: 0;
+	padding: 0px 0; 
+    width: auto;
+    height: auto;
+	display: flex; 
+	border-radius: 5px; 
+	box-shadow: 0 10px 30px rgba(0,0,0,.3);
+    list-style-type: none;
+  
+
+}
+
+ul li{
+	list-style: none;
+	display: block;
+	border-right: 1px solid rgba(0,0,0,0.2);
+	text-decoration: none;
+	padding: 0 50px;
+	display: block;
+   
+}
+
+ul li .icon{
+	width: 50px; 
+	height: 50px; 
+	color: gray;
+	margin: 0 auto 10px;	
+}
+
+ul li .icon .fa{
+    width: 100%;
+	height: 100%;
+	line-height: 40px;
+	font-size: 34px;
+	transition: 0.5s; 
+}
+ .one{
+    background-color: gray ;
+    border-bottom: 5px solid gray;  
+}
+.one:hover{
+    opacity: 0.8;
+}
+.b{
+    border-bottom: 10px solid red;
+    
+}
+.b:hover{
+    background-color: red;
+  
+}
+
+.c{
+    border-bottom: 10px solid rgb(243, 114, 62);
+    
+}
+.c:hover{
+    background-color: rgb(243, 114, 62);
+  
+}
+.d{
+    border-bottom: 10px solid rgb(238, 223, 18);
+    
+}
+.d:hover{
+    background-color: rgb(238, 223, 18);
+  
+}
+.e{
+    border-bottom: 10px solid rgb(57, 219, 65);
+  
+    
+}
+.e:hover{
+    background-color: rgb(57, 219, 65);
+    ;
+  
+}
+.f{
+    border-bottom: 10px solid rgb(53, 179, 230);
+  
+    
+}
+.f:hover{
+    background-color: rgb(53, 179, 230);
+    
+  
+}
+.g{
+    border-bottom: 10px solid rgb(6, 10, 223);
+  
+    
+}
+.g:hover{
+    background-color: rgb(6, 10, 223);
+    
+  
+}
+.two {
+
+    float: left;
+    width: 60px;
+    margin-left: 0;
+    padding-left: 0;
+    border: 2px solid black;
+    color: white;
+    margin-top: 40px;
+    position: fixed;
+  }
+
+  .h{
+    border-radius: 0px 20px;
+    text-align: center;
+    color: white;
+    height: 160px;
+    background-color: rgb(50, 177, 50);
+  }
+  .i{
+  
+      background-color: grey;
+      color: #fff;
+      text-align: center;
+      height: 100px;
+      border-bottom: 2px solid black;
+    
+  }
+  .i:hover{
+    background-color: rgb(19, 166, 224);
+  }
+
+  .div1 {
+    float: left;
+    width: 500px;
+    margin-left: 40px;
+    padding-left: 40px;
+    height: 400px; 
+    color: white;
+    padding-top: 10px;
+  }
+  .a1{
+    border: 1px solid yellow;
+    background-color: yellow;
+    border-radius: 10px;
+    color: black;
+  }
+  .a1 p,h3{
+    margin-top: 0px;
+    padding-left: 20px;
+  }
+
+  .div2{
+    
+    float: left;
+    display:flex ;
+    border: 1px solid orangered;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 230px;
+    background-color: orangered;
+    color: black;
+    border-radius: 15px;
+
+  }
+  .div2:hover{
+    background-color: orangered;
+  }
+  
+  /* .a2{
+    float: left;
+    width: 220px;
+    margin-left: 20px;
+    padding-left: 10px;
+    color: black;
+    padding-top: 10px;
+  } */
+  .a3{
+    float: left;
+    width: 230px;
+    margin-left: 10px;
+    padding-left: 10px;
+    color: black;
+    padding-top: 10px;
+  } 
+  .a3{
+    background-color: blue;
+    color: black;
+    border-radius: 15px;
+  }
+  .div3{
+    float: left;
+    width: 350px;
+    margin-left: 10px;
+    padding-left: 10px;
+    color: black;
+    padding-top: 10px;
+
+  }
+  .a4{
+    background-color: rgba(255, 255, 0, 0.432);
+    margin-left: 20px;
+    border-radius: 15px;
+
+  }
+
+  .a4:hover{
+    background-color: rgba(255, 255, 0, 0.432);
+  }
+
+  .div4{
+    float: left;
+    display:block ;
+    border-radius: 10px;
+    width: 300px;
+  }
+  .a5{
+    background-color: grey;
+    color: black;
+    border-radius: 15px;
+    display: flex;
+    height: 200px;
+    width: 300px;
+  }
+
+  .a5:hover{
+    background-color: grey;
+  }
+
+  .b1{
+    display: inline block;
+    padding-top: 0px;
+  }
+
+  .b2{
+     background-color: grey;
+     text-align: center;
+     font-size: 30px;
+     padding-top: 20px;
+
+  }
+  .b2:hover{
+    background-color: grey;
+
+   }
+
+  .a6{
+    background-color: aqua;
+    color: black;
+    margin-top:30px;
+    border-radius: 15px;
+    font-size: 20px;
+  }
+ 
+
+
+  .small{
+    float: left;
+    width: 300px;
+    margin-left: 10px;
+    padding-left:10px;
+   color: black;
+
+
+  }
+  .last1{
+    background-color: green;
+    border-radius: 20px;
+  }
+
+  .last1:hover{
+    background-color: green;
+    border-radius: 30px;
+    margin-top: 30px;
+
+  }
+  .last2{
+    background-color: aqua;
+    border-radius: 20px;
+  }
+
+  .last2:hover{
+    background-color: aqua;
+    border-radius: 30px;
+    margin-top: 30px;
+  }
+  .small1{
+    float: left;
+    width: 300px;
+    margin-left: 10px;
+    padding-left:10px;
+    color: black;
+  }
+  .last3{
+    background-color: gray;
+    border-radius: 20px;
+  }
+
+  .last3:hover{
+    background-color: gray;
+    border-radius: 30px;
+    margin-top: 30px;
+
+  }
+  .last4{
+    background-color: purple;
+    border-radius: 20px;
+  }
+  .last5:hover{
+    background-color:  rgba(235, 76, 18, 0.945);
+    border-radius: 30px;
+    margin-top: 30px;
+
+  }
+  .last5{
+    background-color: orangered;
+    border-radius: 20px;
+  }
+
+  .last5:hover{
+    background-color: orangered;
+    border-radius: 30px;
+    margin-top: 30px;
+
+  }
+  .last6{
+    background-color: rgb(16, 55, 172);
+    border-radius: 20px;
+  }
+
+  .last6:hover{
+    background-color:  rgb(16, 55, 172);
+    border-radius: 30px;
+    margin-top: 30px;
+
+  }
+  .last7{
+    text-align: center;
+    margin-top: 30px;
+    font-size:20px ;
+    border-radius: 0px 0px 89px 0px;;
+    background-color: orangered;
+  }
+  
+  .last7 p{
+    background-color: rgb(23, 181, 243);
+     color: rgb(7, 7, 7);
+    border-radius: 0px 0px 89px 0px;;
+  }
+
+
+
+
+
+
+
+

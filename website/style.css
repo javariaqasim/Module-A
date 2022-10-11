@@ -1,0 +1,142 @@
+
+.a {
+    color: rgb(131, 27, 27);
+    text-align: center;
+    font-size: 30px;
+}
+ul {
+    list-style: none;
+}
+.ul1 {
+    background-color: rgb(145, 33, 33);
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;  
+    top: 50px; 
+    border: 2px solid black;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: black;
+}
+
+.header1 {
+    position: relative;
+    top: 90px;
+    display: flex;
+}
+ .div1 {
+    position: relative;
+    display: inline-block;
+    left: 10px;
+}
+.div1 a {
+    color: blue;
+}
+@media screen and (min-width: 350px) {
+    .div1 img  {
+        color: #262626;
+        width: 500px;
+    }
+  }
+.div2 {
+    position: absolute;
+    display: inline-block;
+    left: 535px;
+    
+}
+.div2 a {
+    color: blue;
+}
+@media screen and (min-width: 350px) {
+    .div2 img  {
+        color: #262626;
+        width: 500px;
+    }
+  }
+
+.div3 {
+    position: absolute;
+    display: inline-block;
+    left: 1060px;
+}
+.div3 a {
+    color: blue;
+}
+@media screen and (min-width: 350px) {
+    .div3 img  {
+        color: #262626;
+        width: 500px;
+    }
+  }
+.header2 {
+    position: absolute;
+    display: flex;
+    top: 550px;
+}
+.div4 {
+    position: relative;
+    display: inline-block;
+    left: 10px;
+}
+.div4 a {
+    color: blue;
+}
+@media screen and (min-width: 350px) {
+    .div4 img {
+        color: #262626;
+        width: 500px;
+    }
+  }
+.div5 {
+    position: absolute;
+    display: inline-block;
+    left: 535px;
+    
+}
+.div5 a {
+    color: blue;
+}
+@media screen and (min-width: 350px) {
+    .div5 img  {
+        color: #262626;
+        width: 500px;
+    }
+  }
+
+.div6 {
+    position: absolute;
+    display: inline-block;
+    left: 1060px;
+}
+.div6 a {
+    color: blue;
+} 
+@media screen and (min-width: 350px) {
+    .div6 img {
+        width: 500px;
+        color: #262626;
+    }
+  }
+
+.header3 {
+    border: 2px solid black;
+    background-color: rgb(131, 27, 27);
+    position: relative;
+    top: 650px;
+    color: white;
+    text-align: center;
+}
+@media screen and (min-width: 480px) {
+    .header3  {
+        color: white;
+        width: 100%;
+    }
+  }
+
+
+
